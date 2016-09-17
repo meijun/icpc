@@ -1,0 +1,25 @@
+10 TaskHello2
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+1 1
+1 2
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+15 main.TaskHello2
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.09.18
+12 ContestHello
+1
+32 io.github.meijun.misc.io.Scanner
+32 io.github.meijun.misc.io.Printer
+0
+0
