@@ -5,15 +5,7 @@ import %OutputClassFQN%;
 import java.util.*;
 
 public class %TaskClass% {
-    %InputClass% in;
-    %OutputClass% out;
 
     public void solve(int testNumber, %InputClass% in, %OutputClass% out) {
-        this.in = in;
-        this.out = out;
-        run();
-    }
-
-    void run() {
     }
 }
