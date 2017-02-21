@@ -1,0 +1,34 @@
+5 TaskA
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+34 2
+3
+ADAM
+BOB
+JOHNSON
+2
+A AB C
+DEF
+
+32 Case #1: JOHNSON
+Case #2: A AB C
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.19
+14 kickstart 2017
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
