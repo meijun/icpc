@@ -22,7 +22,7 @@ public class Prime {
         Arrays.fill(isp, true);
         isp[0] = isp[1] = false;
         for (int i = 2; i < n; i++) {
-            if (isp[i]) {
+            if (isp[i] && n / i >= i) {
                 for (int j = i * i; j < n; j += i) {
                     isp[j] = false;
                 }
