@@ -12,8 +12,11 @@ public abstract class Seg {
     public long[] is;
     public long[] mul;
     public long[] add;
+    public long init;
+
     public Seg(int n, long init) {
         N = Integer.highestOneBit(n) << 1;
+        this.init = init;
         is = new long[N * 2];
         mul = new long[N * 2];
         add = new long[N * 2];
@@ -37,11 +40,11 @@ public abstract class Seg {
 
     public abstract void push(int o, int L, int R, long m, long a);
 
-    public void update(int l, int r, int m, int a) {
+    public void update(int l, int r, long m, long a) {
         update(1, 0, N, l, r, m, a);
     }
 
-    private void update(int o, int L, int R, int l, int r, int m, int a) {
+    private void update(int o, int L, int R, int l, int r, long m, long a) {
         if (l <= L && R <= r) {
             push(o, L, R, m, a);
         } else {
@@ -72,9 +75,9 @@ public abstract class Seg {
         } else {
             int M = (L + R) >> 1;
             push(o, L, M, R);
-            int res = 0;
-            if (l < M) res += query(o << 1, L, M, l, r);
-            if (r > M) res += query(o << 1 | 1, M, R, l, r);
+            long res = init;
+            if (l < M) res = merge(res, query(o << 1, L, M, l, r));
+            if (r > M) res = merge(res, query(o << 1 | 1, M, R, l, r));
             is[o] = merge(is[o << 1], is[o << 1 | 1]);
             return res;
         }
