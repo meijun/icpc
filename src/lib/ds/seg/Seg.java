@@ -41,7 +41,7 @@ public abstract class Seg {
     public abstract void push(int o, int L, int R, long m, long a);
 
     public void update(int l, int r, long m, long a) {
-        update(1, 0, N, l, r, m, a);
+        if (l < r) update(1, 0, N, l, r, m, a);
     }
 
     private void update(int o, int L, int R, int l, int r, long m, long a) {
@@ -66,7 +66,8 @@ public abstract class Seg {
     }
 
     public long query(int l, int r) {
-        return query(1, 0, N, l, r);
+        if (l < r) return query(1, 0, N, l, r);
+        return init;
     }
 
     private long query(int o, int L, int R, int l, int r) {

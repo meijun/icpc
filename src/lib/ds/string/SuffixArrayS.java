@@ -1,6 +1,6 @@
 package lib.ds.string;
 
-import lib.ds.seg.SegLiteMin;
+import lib.ds.seg.SegLite;
 
 /**
  * DC3 algorithm, suffix array with O(n) time.
@@ -12,7 +12,7 @@ public class SuffixArrayS {
     public int[] is; // si:= suffix array, size = n, no empty string.
     public char[] cs;
     public int[] hs; // hs[i]:= si[i] & si[i - 1] 's LCP
-    public SegLiteMin seg;
+    public SegLite seg;
 
     public SuffixArrayS(char[] T) {
         cs = T;
@@ -400,7 +400,7 @@ public class SuffixArrayS {
     }
 
     public void buildRMQ() {
-        seg = new SegLiteMin(hs); // , Integer.MAX_VALUE, Math::min);
+        seg = new SegLite(hs, Integer.MAX_VALUE, Math::min);
     }
 
     /**

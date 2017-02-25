@@ -1,6 +1,6 @@
 package lib.ds.string;
 
-import lib.ds.seg.SegLiteMin;
+import lib.ds.seg.SegLite;
 
 import java.util.Arrays;
 
@@ -16,7 +16,7 @@ public class SuffixArray {
     public int[] si;// si:= suffix array(si[0] = end);
     public int[] is;// is[si[i]] = i;
     public int[] hs;// hs[i]:= suffix i & i+1 's LCP
-    public SegLiteMin rmq;
+    public SegLite rmq;
 
     public SuffixArray(char[] t) {
         n = t.length;
@@ -71,7 +71,7 @@ public class SuffixArray {
     }
 
     public void buildRMQ() {
-        rmq = new SegLiteMin(hs); // , Integer.MAX_VALUE, Math::min);
+        rmq = new SegLite(hs, Integer.MAX_VALUE, Math::min);
     }
 
     /**
