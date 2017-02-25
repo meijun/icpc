@@ -10,30 +10,10 @@ import java.util.TreeMap;
  */
 public class Multiplicative {
 
-    public static final Func DIVISOR_COUNT = new Func() {
-        @Override
-        public long value(long p, int e, long pow) {
-            return e + 1;
-        }
-    };
-    public static final Func DIVISOR_SUM = new Func() {
-        @Override
-        public long value(long p, int e, long pow) {
-            return (pow * p - 1) / (p - 1);
-        }
-    };
-    public static final Func PHI = new Func() {
-        @Override
-        public long value(long p, int e, long pow) {
-            return pow / p * (p - 1);
-        }
-    };
-    public static final Func MOBIUS = new Func() {
-        @Override
-        public long value(long p, int e, long pow) {
-            return e == 1 ? -1 : 0;
-        }
-    };
+    public static final Func DIVISOR_COUNT = (p, e, pow) -> e + 1;
+    public static final Func DIVISOR_SUM = (p, e, pow) -> (pow * p - 1) / (p - 1);
+    public static final Func PHI = (p, e, pow) -> pow / p * (p - 1);
+    public static final Func MOBIUS = (p, e, pow) -> e == 1 ? -1 : 0;
 
     public static long value(long n, Func func) {
         long value = 1;
