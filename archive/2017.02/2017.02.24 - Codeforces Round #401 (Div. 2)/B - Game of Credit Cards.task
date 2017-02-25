@@ -1,0 +1,39 @@
+24 B - Game of Credit Cards
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+10 3
+123
+321
+
+4 0
+2
+
+1
+1
+8 2
+88
+00
+
+4 2
+0
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.24
+30 Codeforces Round #401 (Div. 2)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
