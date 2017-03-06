@@ -1,0 +1,39 @@
+18 B - Weird Rounding
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+8 30020 3
+
+2 1
+
+1
+1
+6 100 9
+
+2 2
+
+1
+2
+11 10203049 2
+
+2 3
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.26
+30 Codeforces Round #402 (Div. 2)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

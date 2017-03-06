@@ -1,0 +1,54 @@
+21 F - Peterson Polyglot
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+26 5
+1 2 c
+2 3 a
+3 4 t
+2 5 t
+
+4 3
+2
+
+1
+1
+106 16
+1 2 o
+2 3 f
+1 4 p
+4 5 i
+5 6 e
+6 7 c
+7 8 e
+4 9 r
+9 10 e
+10 11 t
+11 12 t
+12 13 y
+10 14 f
+14 15 i
+15 16 x
+
+5 12
+2
+
+1
+8 src/main
+8 -Xmx512M
+4 Main
+10 main.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.26
+30 Codeforces Round #402 (Div. 2)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

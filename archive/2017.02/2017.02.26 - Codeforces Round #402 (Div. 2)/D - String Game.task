@@ -1,0 +1,41 @@
+15 D - String Game
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+26 ababcba
+abb
+5 3 4 1 7 6 2
+
+1 3
+1
+1
+22 bbbabb
+bb
+1 6 3 4 2 5
+
+1 4
+1
+2
+13 abc
+abc
+1 2 3
+1 0
+1
+8 src/main
+8 -Xmx512M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.26
+30 Codeforces Round #402 (Div. 2)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
