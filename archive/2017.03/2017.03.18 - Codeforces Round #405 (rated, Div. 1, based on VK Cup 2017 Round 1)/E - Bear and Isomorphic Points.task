@@ -1,0 +1,49 @@
+30 E - Bear and Isomorphic Points
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+109 4
+4
+5 3
+0 1
+10 1
+3 51
+3
+-999123 700000
+-950000 123456
+-950000 987654
+3
+2 3
+10 -1
+-4 6
+5
+1 3
+5 2
+6 1
+4 4
+-3 3
+
+73 250.000000000000
+100000000000.000000000000
+0.000000000000
+6.562500000000
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.18
+67 Codeforces Round #405 (rated, Div. 1, based on VK Cup 2017 Round 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

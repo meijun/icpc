@@ -1,0 +1,56 @@
+20 C - Bear and Company
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+7 4
+VKVK
+
+2 3
+
+1
+1
+8 5
+BVVKV
+
+2 2
+
+1
+2
+10 7
+VVKEVKK
+
+2 3
+
+1
+3
+24 20
+VKVKVVVKVOVKVQKKKVVK
+
+2 8
+
+1
+4
+8 5
+LIMAK
+
+2 0
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.18
+67 Codeforces Round #405 (rated, Div. 1, based on VK Cup 2017 Round 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

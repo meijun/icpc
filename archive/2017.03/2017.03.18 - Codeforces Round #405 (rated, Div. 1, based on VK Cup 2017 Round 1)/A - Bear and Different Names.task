@@ -1,0 +1,39 @@
+28 A - Bear and Different Names
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+25 8 3
+NO NO YES YES YES NO
+
+42 Adam Bob Bob Cpqepqwer Limak Adam Bob Adam
+1
+1
+11 9 8
+YES NO
+
+45 R Q Ccccccccc Ccocc Ccc So Strong Samples Ccc
+1
+2
+10 3 2
+NO NO
+
+8 Na Na Na
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.18
+67 Codeforces Round #405 (rated, Div. 1, based on VK Cup 2017 Round 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

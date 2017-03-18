@@ -1,0 +1,58 @@
+23 B - Bear and Tree Jumps
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+24 6 2
+1 2
+1 3
+2 4
+2 5
+4 6
+
+3 20
+
+1
+1
+58 13 3
+1 2
+3 2
+4 2
+5 2
+3 6
+10 6
+6 7
+6 13
+5 8
+5 9
+9 11
+11 12
+
+4 114
+
+1
+2
+12 3 5
+2 1
+3 1
+
+2 3
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.18
+67 Codeforces Round #405 (rated, Div. 1, based on VK Cup 2017 Round 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

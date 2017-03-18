@@ -1,0 +1,45 @@
+29 D - Bear and Rectangle Strips
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+42 6
+70 70 70 70 70 -15
+90 -60 -30 30 -30 15
+
+2 3
+
+1
+1
+19 4
+0 -1 0 0
+0 0 1 0
+
+2 6
+
+1
+2
+68 3
+1000000000 999999999 -1000000000
+999999999 -1000000000 -999999998
+
+2 1
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.18
+67 Codeforces Round #405 (rated, Div. 1, based on VK Cup 2017 Round 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
