@@ -1,0 +1,55 @@
+11 D - Rap God
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+34 4 3
+4 1 t
+3 2 p
+1 2 s
+3 2
+1 3
+2 1
+
+6 0
+1
+1
+
+1
+1
+62 8 4
+4 6 p
+3 7 o
+7 8 p
+4 5 d
+1 3 o
+4 3 p
+3 2 e
+8 6
+3 7
+8 1
+4 3
+
+8 6
+1
+3
+1
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.23
+30 Codeforces Round #406 (Div. 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

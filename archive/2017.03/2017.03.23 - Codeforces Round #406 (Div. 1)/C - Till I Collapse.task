@@ -1,0 +1,35 @@
+19 C - Till I Collapse
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 5
+1 3 4 3 3
+
+11 4 2 1 1 1 
+
+1
+1
+18 8
+1 5 7 8 1 7 6 1
+
+17 8 4 3 2 1 1 1 1 
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.23
+30 Codeforces Round #406 (Div. 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
