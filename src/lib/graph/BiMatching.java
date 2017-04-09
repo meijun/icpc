@@ -79,10 +79,15 @@ public class BiMatching {
     }
 
     public static class V {
+        public int id;
         public List<V> vs = new ArrayList<>();
         public V pair;
         public boolean used;
         public int level; // for hopcroft karp
+
+        public V(int id) {
+            this.id = id;
+        }
 
         public void connect(V v) {
             vs.add(v);
