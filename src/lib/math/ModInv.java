@@ -1,5 +1,7 @@
 package lib.math;
 
+import lib.misc.$;
+
 /**
  * ModInv.
  * Created by meijun on 6/6/2016.
@@ -7,14 +9,11 @@ package lib.math;
 public class ModInv {
 
     public static long inv(long a, long mod) {
-        a %= mod;
-        if (a < 0) a += mod;
-        return invRec(a, mod);
-    }
-
-    private static long invRec(long a, long mod) {
-        if (a == 1) return 1;
-        return invRec(mod % a, mod) * (mod - mod / a) % mod;
+        long[] g = GCD.exGcd(a, mod);
+        if (g[2] != 1) {
+            throw new RuntimeException("GCD != 1: (a, mod, gcd) = " + a + ", " + mod + ", " + g[2]);
+        }
+        return (g[0] % mod + mod) % mod;
     }
 
     public static long[] table(int n, long mod) {

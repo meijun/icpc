@@ -1,0 +1,38 @@
+21 E - Verifying Kingdom
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+51 5
+X
+Z
+Y
+Y
+X<span class="tex-font-style-tt"></span>
+
+52 1 4 2
+1 2 4
+2 4 1
+2 3 5
+2 4 3
+-1
+-1 1 1 2 2 3 3 6 6
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.04.16
+67 Codeforces Round #409 (rated, Div. 1, based on VK Cup 2017 Round 2)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
