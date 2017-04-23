@@ -1,0 +1,45 @@
+5 TaskB
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+57 4
+6 2 0 2 0 2 0
+3 1 0 2 0 0 0
+6 2 0 1 1 2 0
+4 0 0 2 0 0 2
+66 Case #1: RYBRBY
+Case #2: IMPOSSIBLE
+Case #3: YBRGRB
+Case #4: YVYV
+
+0
+1
+25 1
+999 1 249 250 0 250 249
+-1
+0
+2
+16 1
+4 2 0 0 0 2 0
+
+14 Case #1: RBRB
+
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.04.23
+3 GCJ
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
