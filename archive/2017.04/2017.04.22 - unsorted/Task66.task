@@ -1,0 +1,22 @@
+6 Task66
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+11 main.Task66
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+19 main.Task66TestCase
+10 2017.04.22
+0 
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
