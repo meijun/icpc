@@ -1,0 +1,47 @@
+17 F - Fake bullions
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+29 2 2 1
+01
+00
+5 11000
+6 100000
+
+2 2
+
+1
+1
+62 5 2 1
+00000
+10000
+11011
+11000
+11010
+2 00
+1 1
+6 100110
+1 0
+1 0
+
+2 5
+
+1
+8 src/main
+8 -Xmx512M
+4 Main
+10 main.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.05.04
+30 Codeforces Round #411 (Div. 1)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
