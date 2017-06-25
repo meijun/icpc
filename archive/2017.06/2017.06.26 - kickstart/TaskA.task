@@ -1,0 +1,30 @@
+5 TaskA
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 3
+OMDU
+BCB
+AOAAAN
+48 Case #1: SOUP
+Case #2: AMBIGUOUS
+Case #3: BANANA
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.06.26
+9 kickstart
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
