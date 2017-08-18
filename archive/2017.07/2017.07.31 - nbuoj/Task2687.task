@@ -1,0 +1,29 @@
+8 Task2687
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+15 2 1011111111 10
+3 767
+1
+1
+8 10 -1 16
+2 -1
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+13 main.Task2687
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.07.31
+5 nbuoj
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
