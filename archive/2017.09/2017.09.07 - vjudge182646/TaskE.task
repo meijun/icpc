@@ -1,0 +1,29 @@
+5 TaskE
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+18 1
+10
+2
+1 5 2
+5 9 3
+42 Case 1: The total value of the hook is 24.
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.09.07
+12 vjudge182646
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
