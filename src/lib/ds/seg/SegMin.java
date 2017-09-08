@@ -11,7 +11,7 @@ public class SegMin extends Seg {
     }
 
     public SegMin(long[] a) {
-        super(a);
+        super(a, Long.MAX_VALUE);
     }
 
     @Override

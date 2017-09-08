@@ -11,7 +11,7 @@ public class SegMax extends Seg {
     }
 
     public SegMax(long[] a) {
-        super(a);
+        super(a, Long.MIN_VALUE);
     }
 
     @Override

@@ -23,7 +23,7 @@ public abstract class Seg {
         Arrays.fill(is, init);
         Arrays.fill(mul, 1);
     }
-    public Seg(long[] a) {
+    public Seg(long[] a, long init) {
         int n = a.length;
         N = Integer.highestOneBit(n) << 1;
         is = new long[N * 2];

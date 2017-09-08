@@ -11,7 +11,7 @@ public class SegSum extends Seg {
     }
 
     public SegSum(long[] a) {
-        super(a);
+        super(a, 0);
     }
 
     @Override
