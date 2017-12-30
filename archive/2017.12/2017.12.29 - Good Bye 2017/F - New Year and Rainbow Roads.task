@@ -1,0 +1,41 @@
+30 F - New Year and Rainbow Roads
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+20 4
+1 G
+5 R
+10 B
+15 G
+
+3 23
+
+1
+1
+19 4
+1 G
+2 R
+3 B
+10 G
+
+3 12
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.12.29
+13 Good Bye 2017
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

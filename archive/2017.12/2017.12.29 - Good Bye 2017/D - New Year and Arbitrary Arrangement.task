@@ -1,0 +1,33 @@
+38 D - New Year and Arbitrary Arrangement
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+6 1 1 1
+
+2 2
+
+1
+1
+6 3 1 4
+
+10 370000006
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.12.29
+13 Good Bye 2017
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

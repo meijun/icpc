@@ -1,0 +1,39 @@
+31 A - New Year and Counting Cards
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+3 ee
+
+2 2
+
+1
+1
+2 z
+
+2 0
+
+1
+2
+5 0ay1
+
+2 2
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.12.29
+13 Good Bye 2017
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

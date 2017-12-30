@@ -1,0 +1,40 @@
+32 H - New Year and Boolean Bridges
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+22 4
+-AAA
+A-AA
+AA-A
+AAA-
+
+2 4
+
+1
+1
+14 3
+-XX
+X-X
+XX-
+
+2 2
+
+1
+8 src/main
+8 -Xmx512M
+4 Main
+10 main.TaskH
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.12.29
+13 Good Bye 2017
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0

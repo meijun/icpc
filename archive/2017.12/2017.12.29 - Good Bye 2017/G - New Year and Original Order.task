@@ -1,0 +1,33 @@
+31 G - New Year and Original Order
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+3 21
+
+4 195
+
+1
+1
+7 345342
+
+10 390548434
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskG
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.12.29
+13 Good Bye 2017
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
