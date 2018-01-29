@@ -15,6 +15,7 @@ public class SCC {
     public static int scc(V[] vs) {
         n = vs.length;
         us = new V[n];
+        for (V v : vs) v.visit = false;
         for (V v : vs) if (!v.visit) dfs(v);
         for (V v : vs) v.visit = false;
         for (V u : us) if (!u.visit) dfsRev(u, n++);

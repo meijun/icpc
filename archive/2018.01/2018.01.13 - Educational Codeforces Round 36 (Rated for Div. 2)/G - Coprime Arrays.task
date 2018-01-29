@@ -1,0 +1,33 @@
+18 G - Coprime Arrays
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+4 3 4
+
+3 82
+
+1
+1
+10 2000000 8
+
+10 339310063
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskG
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.01.13
+50 Educational Codeforces Round 36 (Rated for Div. 2)
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
