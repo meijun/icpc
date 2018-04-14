@@ -1,0 +1,40 @@
+5 TaskC
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+63 4
+1 7
+1 1
+2 920
+50 120
+50 120
+1 32
+7 4
+3 240
+10 20
+20 30
+30 10
+
+76 Case #1: 6.828427
+Case #2: 920.000000
+Case #3: 32.000000
+Case #4: 240.000000
+1
+8 src/main
+16 -Xmx256m -Xss64m
+8 Solution
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.04.14
+7 GCJ R1A
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
