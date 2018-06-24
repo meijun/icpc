@@ -1,0 +1,30 @@
+5 TaskA
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+81 2 2 4
+1 1 0 18:00:00.000
+1 1 1 20:00:00.000
+1 1 0 18:00:01.000
+1 2 0 18:00:02.000
+5 11
+00
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.06.23
+9 CodeM R1B
+1
+16 lib.misc.Scanner
+19 java.io.PrintWriter
+0
+0
