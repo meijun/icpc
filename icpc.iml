@@ -19,5 +19,6 @@
         <jarDirectory url="file://$APPLICATION_PLUGINS_DIR$/chelper/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="CHelper" level="project" />
   </component>
 </module>
