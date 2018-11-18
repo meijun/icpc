@@ -1,0 +1,39 @@
+{
+  "name" : "TaskA",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n3 2\nBBB\nRB\n5 1\nR\n4 3\nR\nB\nRBRB\n50 5\nBRBRBBBRBRRRBBB\nBRBRBRRRBRRRBRB\nBBBRBBBRBRRRBBB\nBRBRBRRRBRRRB\nBRBRBBBRBBBRB",
+    "output" : "Case #1: 5\nCase #2: 16\nCase #3: 0\nCase #4: 1125556309458944\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n4 3\nR\nB\nRBRB\n",
+    "output" : "Case #1: 0\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.18",
+  "contestName" : "Kickstart",
+  "truncate" : true,
+  "inputClass" : "lib.misc.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
